@@ -17,10 +17,9 @@
         android:hint="@string/name"/>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="@string/toppings"/>
+        android:text="@string/toppings"
+        style="@style/HeaderTextStyle"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -61,10 +60,9 @@
     </LinearLayout>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="@string/quantity" />
+        android:text="@string/quantity"
+        style="@style/HeaderTextStyle"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -98,10 +96,9 @@
     </LinearLayout>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="@string/order_summary" />
+        android:text="@string/order_summary"
+        style="@style/HeaderTextStyle"/>
 
     <TextView
         android:id="@+id/order_summary_text_view"
